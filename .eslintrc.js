@@ -9,7 +9,6 @@ module.exports = {
   },
 	"rules": {
 		// "indent": [2, "tab"],
-		
 		"comma-dangle": 0,
 		"linebreak-style": 0,
 		"no-console": 0,
