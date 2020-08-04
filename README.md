@@ -21,9 +21,7 @@ Create and host a simple web application with authentication using AWS Amplify, 
 
 ### Prerequisites
 - AWS account
-- See more [here]()
-
-Install the Amplify CLI using the Command Prompt
+- Install the Amplify CLI using the Command Prompt
 ```
 npm install -g @aws-amplify/cli
 ```
