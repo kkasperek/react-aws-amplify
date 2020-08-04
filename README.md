@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React App with AWS
+Create and host a simple web application with authentication using AWS Amplify, React, and GraphQL. 
+> See the entire AWS Amplify tutorial for building a React Application [here](https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/).
 
-## Available Scripts
 
-In the project directory, you can run:
+## The Stack
 
-### `yarn start`
+- [AWS Amplify](https://docs.aws.amazon.com/amplify/index.html) - Provides a Git based CI/CD workflow for building, deploying, and hosting single page applications. 
+- [Amplify CLI](https://docs.aws.amazon.com/cli/latest/reference/amplify/index.html) – Allows you to create, manage, and remove AWS services directly from your terminal.
+- [Amplify Libraries](https://docs.amplify.aws/lib/q/platform/js) – Allow direct interactions with AWS backend services from a web or mobile application. 
+    > For scaffolding end-to-end authentication flow see [Amplify UI Component Library](https://docs.amplify.aws/guides/authentication/custom-auth-flow/q/platform/js)
+- [Amazon Cognito](https://docs.aws.amazon.com/cognito/index.html) - A managed user identity service.
+- [React.js](https://reactjs.org/) - Web application framework using JavaScript.
+- [Git](https://git-scm.com/) – Open source version control that maintains and updates relationships between files and directories, versions, and changes to the files.
+- [GraphQL](https://graphql.org/) - A query language and server-side API implementation based on a typed representation of your application.
+- [Amazon DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html) - A fully managed NoSQL database.
 
-Runs the app in the development mode.<br />
+<br/>
+
+# Getting Started
+
+## Prerequisites
+- AWS account
+- See more [here]()
+
+Install the Amplify CLI using the Command Prompt
+```
+npm install -g @aws-amplify/cli
+```
+
+---
+
+## Installation
+Clone this repo to your local machine. 
+```shell
+$ git clone https://github.com/kkasperek/react-aws-amplify.git
+```
+Using [yarn]() or [npm](), run the following command in the root of the project to install dependencies. 
+```shell
+$ yarn install or npm install
+```
+
+---
+
+### Running Locally
+To start the dev environment locally: 
+```shell
+$ yarn start or npm start
+```
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+> The page will reload if you make edits. You will also see any lint errors in the console.
 
-### `yarn test`
+<br/>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### `yarn build`
+Please make sure to update tests as appropriate.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# License
+[MIT](https://choosealicense.com/licenses/mit/)
