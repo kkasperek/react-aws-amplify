@@ -17,9 +17,9 @@ Create and host a simple web application with authentication using AWS Amplify, 
 
 <br/>
 
-# Getting Started
+## Getting Started
 
-## Prerequisites
+### Prerequisites
 - AWS account
 - See more [here]()
 
@@ -30,7 +30,7 @@ npm install -g @aws-amplify/cli
 
 ---
 
-## Installation
+### Installation
 Clone this repo to your local machine. 
 ```shell
 $ git clone https://github.com/kkasperek/react-aws-amplify.git
@@ -53,10 +53,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 <br/>
 
-# Contributing
+## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-# License
+## License
 [MIT](https://choosealicense.com/licenses/mit/)
